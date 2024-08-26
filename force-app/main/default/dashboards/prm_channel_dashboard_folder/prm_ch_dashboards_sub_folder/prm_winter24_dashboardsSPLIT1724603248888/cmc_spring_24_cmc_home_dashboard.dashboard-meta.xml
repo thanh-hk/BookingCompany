@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>light</chartTheme>
+    <colorPalette>unity</colorPalette>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorPalette>unity</dashboardColorPalette>
+    <dashboardGridLayout>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <description>追蹤主要度量並取得合作夥伴銷售、生產力和啟用的相關洞察。此顯示面板包含在標準「管道管理主控台」應用程式首頁中。</description>
+    <isGridLayout>true</isGridLayout>
+    <owner>autoproc@00dhe000000s3j72ak</owner>
+    <runningUser>test-jqtdvry6mb9y@example.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>管道管理概觀</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

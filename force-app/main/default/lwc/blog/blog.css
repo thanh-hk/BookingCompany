@@ -1,0 +1,20 @@
+
+.date {
+    margin-top: -70px;
+    background-color:#f5f4f0 ;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.order{
+    color: #95adbe;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card:hover .date{
+    background-color: #95adbe;
+}
+.card:hover .date .order{
+    color: #fff;
+}

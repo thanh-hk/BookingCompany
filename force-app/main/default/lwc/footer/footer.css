@@ -1,0 +1,15 @@
+.card, .card a {
+    color:#fff;
+}
+
+.card a {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.container .card:not(:first-child) span{
+    margin-right: .5rem;
+    width: 15px;
+    height: 15px;
+}

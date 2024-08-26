@@ -1,0 +1,85 @@
+nav {    
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+.hamburger-button-wrap {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #000;
+    
+}
+.hamburger-button-wrap a{
+    color: #fff;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+}
+.navbar {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+.navbar .nav-item{
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+.mobile-menu.responsive {
+    display: block;
+}
+
+
+.mobile-menu{
+    position: relative;
+    background-color: #000;
+}
+.mobile-menu .container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.mobile-menu a {
+    color: #fff;
+}
+.button-close{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 40px;
+}
+@media only screen and (max-width: 600px) {
+    .mobile-menu, .navbar {
+        display: none;
+    }  
+
+}
+
+@media only screen and (min-width: 768px) {
+     .mobile-menu, .hamburger-button-wrap {
+        display: none;
+    }  
+    .nav-item::before{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #95adbe;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
+      .nav-item:hover{
+        color: #95adbe;
+        text-decoration: none;
+    }
+    .nav-item:hover::before{
+        width: 100%;
+    }
+}
